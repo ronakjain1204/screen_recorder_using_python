@@ -3,7 +3,6 @@ from PIL import ImageGrab  # To capture screenshots (grab the screen) as an imag
 import numpy as np  # NumPy is used to handle arrays and convert images into arrays for OpenCV
 from screeninfo import get_monitors  # To retrieve information about connected monitors (screen dimensions)
 
-
 # Loop through all connected monitors and get the screen dimensions (x, y, width, height)
 for m in get_monitors():
     x: int = m.x       # Top-left x-coordinate of the monitor
